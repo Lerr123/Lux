@@ -1,0 +1,364 @@
+a {
+   text-decoration: none;
+ }
+ .bloc9{
+   position: absolute;
+ width: 1488px;
+ height: 249px;
+ left: 216px;
+ top: -5px;
+ 
+ background: #BDE7FF;
+ border-radius: 1011px;
+ }
+ .img{
+   position: absolute;
+   width: 406px;
+   height: 219px;
+   left: 750px;
+   top: -90px;
+   max-width: 100%;
+   height: auto;
+   
+   background: url()
+   
+ }
+ 
+ .tex{
+   
+   position: absolute;
+   width: 109px;
+   height: 42px;
+   left: 298px;
+   top: 90px;
+   
+   font-family: 'Concert One', cursive;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 36px;
+   line-height: 49px;
+   
+   color: #000;
+   
+   
+ }
+ .tex::before {
+   content: ' ';
+   position: absolute;
+   z-index: -1;
+   bottom: 0;
+   left: -2px;
+   padding: 0 2px;
+   
+   width: calc(100% + 2px);
+   height: 1px;
+   border-bottom: 0px solid tomato;
+   
+   transition: 0.4s;
+ }
+ .tex::after {
+   content: ' ';
+   position: absolute;
+   z-index: -1;
+   bottom: 0;
+   left: calc(50% - 4px);
+   padding: 0 2px;
+   
+   width: 0;
+   height: 0;
+   
+   border: 1px solid transparent;
+   
+   transition: 0.2s;
+ }
+ 
+ .tex:hover::before {
+   border-color: transparent;
+ }
+ .tex:hover::after {
+   width: 100%;
+   height: 0.65em;
+   left: -1em;
+   bottom: -0.35em;
+   padding: 0.5em 1em;
+   border-color: tomato;
+   background-color: tomato;
+   border-radius: 2.5em;
+ }
+ .tex {
+   display: inline-block;
+   
+   transition: 0.3s;
+   transition-delay: 0s;
+   transform: scale(1);
+ }
+ .tex:hover {
+   color: #fff;	
+   transform: scale(1.4);
+   transition-delay: 0.05s;
+ }
+ .tex1{
+ 
+   position: absolute;
+   width: 166px;
+   height: 42px;
+   left: 533px;
+   top: 90px;
+   
+   font-family: 'Concert One', cursive;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 36px;
+   line-height: 49px;
+   
+   color: #000000;
+   
+ }
+ .tex1::before {
+   content: ' ';
+   position: absolute;
+   z-index: -1;
+   bottom: 0;
+   left: -2px;
+   padding: 0 2px;
+   
+   width: calc(100% + 2px);
+   height: 1px;
+   border-bottom: 0px solid tomato;
+   
+   transition: 0.4s;
+ }
+ .tex1::after {
+   content: ' ';
+   position: absolute;
+   z-index: -1;
+   bottom: 0;
+   left: calc(50% - 4px);
+   padding: 0 2px;
+   
+   width: 0;
+   height: 0;
+   
+   border: 1px solid transparent;
+   
+   transition: 0.2s;
+ }
+ .tex1:hover::before {
+   border-color: transparent;
+ }
+ .tex1:hover::after {
+   width: 100%;
+   height: 0.65em;
+   left: -1em;
+   bottom: -0.35em;
+   padding: 0.5em 1em;
+   border-color: tomato;
+   background-color: tomato;
+   border-radius: 2.5em;
+ }
+ .tex1 {
+   display: inline-block;
+   
+   transition: 0.3s;
+   transition-delay: 0s;
+   transform: scale(1);
+ }
+ .tex1:hover {
+   color: #fff;	
+   transform: scale(1.4);
+   transition-delay: 0.05s;
+ }
+ .tex2{
+   position: absolute;
+   width: 114px;
+   height: 42px;
+   left: 1207px;
+   top: 90px;
+   
+   font-family: 'Concert One', cursive;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 36px;
+   line-height: 49px;
+   
+   color: #000000;
+   
+ }
+ .tex2::before {
+   content: ' ';
+   position: absolute;
+   z-index: -1;
+   bottom: 0;
+   left: -2px;
+   padding: 0 2px;
+   
+   width: calc(100% + 2px);
+   height: 1px;
+   border-bottom: 0px solid tomato;
+   
+   transition: 0.4s;
+ }
+ .tex2::after {
+   content: ' ';
+   position: absolute;
+   z-index: -1;
+   bottom: 0;
+   left: calc(50% - 4px);
+   padding: 0 2px;
+   
+   width: 0;
+   height: 0;
+   
+   border: 1px solid transparent;
+   
+   transition: 0.2s;
+ }
+ 
+ .tex2:hover::before {
+   border-color: transparent;
+ }
+ .tex2:hover::after {
+   width: 100%;
+   height: 0.65em;
+   left: -1em;
+   bottom: -0.35em;
+   padding: 0.5em 1em;
+   border-color: tomato;
+   background-color: tomato;
+   border-radius: 2.5em;
+ }
+ .tex2 {
+   display: inline-block;
+   
+   transition: 0.3s;
+   transition-delay: 0s;
+   transform: scale(1);
+ }
+ .tex2:hover {
+   color: #fff;	
+   transform: scale(1.4);
+   transition-delay: 0.05s;
+ }
+ 
+ .tex3{
+   position: absolute;
+   width: 199px;
+   height: 42px;
+   left: 1425px;
+   top: 90px;
+   
+   font-family: 'Concert One', cursive;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 36px;
+   line-height: 49px;
+   
+   color: #000000;
+ }
+ .tex3::before {
+   content: ' ';
+   position: absolute;
+   z-index: -1;
+   bottom: 0;
+   left: -2px;
+   padding: 0 2px;
+   
+   width: calc(100% + 2px);
+   height: 1px;
+   border-bottom: 0px solid tomato;
+   
+   transition: 0.4s;
+ }
+ .tex3::after {
+   content: ' ';
+   position: absolute;
+   z-index: -1;
+   bottom: 0;
+   left: calc(50% - 4px);
+   padding: 0 2px;
+   
+   width: 0;
+   height: 0;
+   
+   border: 1px solid transparent;
+   
+   transition: 0.2s;
+ }
+ 
+ .tex3:hover::before {
+   border-color: transparent;
+ }
+ .tex3:hover::after {
+   width: 100%;
+   height: 0.65em;
+   left: -1em;
+   bottom: -0.35em;
+   padding: 0.5em 1em;
+   border-color: tomato;
+   background-color: tomato;
+   border-radius: 2.5em;
+ }
+ .tex3 {
+   display: inline-block;
+   
+   transition: 0.3s;
+   transition-delay: 0s;
+   transform: scale(1);
+ }
+ .tex3:hover {
+   color: #fff;	
+   transform: scale(1.4);
+   transition-delay: 0.05s;
+ }
+ * {
+   box-sizing: border-box;
+}
+.product-item {
+   position: absolute;
+   width: 300px;
+   top: 450px;
+   left: 300px;
+   text-align: center;
+   margin: 0 auto;
+   border-bottom: 2px solid #F5F5F5;
+   background: white;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   transition: .3s ease-in;
+}
+.product-item:hover {
+   border-bottom: 2px solid #fc5a5a;
+}
+.product-item img {
+   display: block;
+   width: 100%;
+}
+.product-list {
+   background: #fafafa;
+   padding: 15px 0;
+}
+.product-list h3 {
+   font-size: 18px;
+   font-weight: 400;
+   color: #444444;
+   margin: 0 0 10px 0;
+}
+.price {
+   font-size: 16px;
+   color: #fc5a5a;
+   display: block;
+   margin-bottom: 12px;
+}
+.button {
+   text-decoration: none;
+   display: inline-block;
+   padding: 0 12px;
+   background: #cccccc;
+   color: white;
+   text-transform: uppercase;
+   font-size: 12px;
+   line-height: 28px;
+   transition: .3s ease-in;
+}
+.product-item:hover .button {
+   background: #fc5a5a;
+}

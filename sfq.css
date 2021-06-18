@@ -1,0 +1,391 @@
+
+
+a {
+  text-decoration: none;
+}
+.bloc9{
+  position: absolute;
+width: 1488px;
+height: 249px;
+left: 216px;
+top: -5px;
+
+background: #BDE7FF;
+border-radius: 1011px;
+}
+.img{
+  position: absolute;
+  width: 406px;
+  height: 219px;
+  left: 750px;
+  top: -90px;
+  max-width: 100%;
+  height: auto;
+  
+  background: url()
+  
+}
+
+.tex{
+  
+  position: absolute;
+  width: 109px;
+  height: 42px;
+  left: 298px;
+  top: 90px;
+  
+  font-family: 'Concert One', cursive;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 49px;
+  
+  color: #000;
+  
+  
+}
+.tex::before {
+  content: ' ';
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: -2px;
+  padding: 0 2px;
+  
+  width: calc(100% + 2px);
+  height: 1px;
+  border-bottom: 0px solid tomato;
+  
+  transition: 0.4s;
+}
+.tex::after {
+  content: ' ';
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: calc(50% - 4px);
+  padding: 0 2px;
+  
+  width: 0;
+  height: 0;
+  
+  border: 1px solid transparent;
+  
+  transition: 0.2s;
+}
+
+.tex:hover::before {
+  border-color: transparent;
+}
+.tex:hover::after {
+  width: 100%;
+  height: 0.65em;
+  left: -1em;
+  bottom: -0.35em;
+  padding: 0.5em 1em;
+  border-color: tomato;
+  background-color: tomato;
+  border-radius: 2.5em;
+}
+.tex {
+  display: inline-block;
+  
+  transition: 0.3s;
+  transition-delay: 0s;
+  transform: scale(1);
+}
+.tex:hover {
+  color: #fff;	
+  transform: scale(1.4);
+  transition-delay: 0.05s;
+}
+.tex1{
+
+  position: absolute;
+  width: 166px;
+  height: 42px;
+  left: 533px;
+  top: 90px;
+  
+  font-family: 'Concert One', cursive;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 49px;
+  
+  color: #000000;
+  
+}
+.tex1::before {
+  content: ' ';
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: -2px;
+  padding: 0 2px;
+  
+  width: calc(100% + 2px);
+  height: 1px;
+  border-bottom: 0px solid tomato;
+  
+  transition: 0.4s;
+}
+.tex1::after {
+  content: ' ';
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: calc(50% - 4px);
+  padding: 0 2px;
+  
+  width: 0;
+  height: 0;
+  
+  border: 1px solid transparent;
+  
+  transition: 0.2s;
+}
+.tex1:hover::before {
+  border-color: transparent;
+}
+.tex1:hover::after {
+  width: 100%;
+  height: 0.65em;
+  left: -1em;
+  bottom: -0.35em;
+  padding: 0.5em 1em;
+  border-color: tomato;
+  background-color: tomato;
+  border-radius: 2.5em;
+}
+.tex1 {
+  display: inline-block;
+  
+  transition: 0.3s;
+  transition-delay: 0s;
+  transform: scale(1);
+}
+.tex1:hover {
+  color: #fff;	
+  transform: scale(1.4);
+  transition-delay: 0.05s;
+}
+.tex2{
+  position: absolute;
+  width: 114px;
+  height: 42px;
+  left: 1207px;
+  top: 90px;
+  
+  font-family: 'Concert One', cursive;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 49px;
+  
+  color: #000000;
+  
+}
+.tex2::before {
+  content: ' ';
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: -2px;
+  padding: 0 2px;
+  
+  width: calc(100% + 2px);
+  height: 1px;
+  border-bottom: 0px solid tomato;
+  
+  transition: 0.4s;
+}
+.tex2::after {
+  content: ' ';
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: calc(50% - 4px);
+  padding: 0 2px;
+  
+  width: 0;
+  height: 0;
+  
+  border: 1px solid transparent;
+  
+  transition: 0.2s;
+}
+
+.tex2:hover::before {
+  border-color: transparent;
+}
+.tex2:hover::after {
+  width: 100%;
+  height: 0.65em;
+  left: -1em;
+  bottom: -0.35em;
+  padding: 0.5em 1em;
+  border-color: tomato;
+  background-color: tomato;
+  border-radius: 2.5em;
+}
+.tex2 {
+  display: inline-block;
+  
+  transition: 0.3s;
+  transition-delay: 0s;
+  transform: scale(1);
+}
+.tex2:hover {
+  color: #fff;	
+  transform: scale(1.4);
+  transition-delay: 0.05s;
+}
+
+.tex3{
+  position: absolute;
+  width: 199px;
+  height: 42px;
+  left: 1425px;
+  top: 90px;
+  
+  font-family: 'Concert One', cursive;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 49px;
+  
+  color: #000000;
+}
+.tex3::before {
+  content: ' ';
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: -2px;
+  padding: 0 2px;
+  
+  width: calc(100% + 2px);
+  height: 1px;
+  border-bottom: 0px solid tomato;
+  
+  transition: 0.4s;
+}
+.tex3::after {
+  content: ' ';
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: calc(50% - 4px);
+  padding: 0 2px;
+  
+  width: 0;
+  height: 0;
+  
+  border: 1px solid transparent;
+  
+  transition: 0.2s;
+}
+
+.tex3:hover::before {
+  border-color: transparent;
+}
+.tex3:hover::after {
+  width: 100%;
+  height: 0.65em;
+  left: -1em;
+  bottom: -0.35em;
+  padding: 0.5em 1em;
+  border-color: tomato;
+  background-color: tomato;
+  border-radius: 2.5em;
+}
+.tex3 {
+  display: inline-block;
+  
+  transition: 0.3s;
+  transition-delay: 0s;
+  transform: scale(1);
+}
+.tex3:hover {
+  color: #fff;	
+  transform: scale(1.4);
+  transition-delay: 0.05s;
+}
+.container_slider_css{margin:50px auto;width:1500px;height:400px;top: 230px;
+  overflow:hidden;position:relative;border-radius: 50px;}
+.photo_slider_css{position:absolute;animation:round 16s infinite;opacity:0;width:100%}
+@keyframes round {
+25%{opacity:1}
+40%{opacity:0}
+}
+img:nth-child(1){animation-delay:12s}
+img:nth-child(2){animation-delay:8s}
+img:nth-child(3){animation-delay:4s}
+img:nth-child(4){animation-delay:0}
+@media(min-width:0px) and (max-width:320px) {
+.container_slider_css{width:80%;height:190px}
+}
+@media(min-width:321px) and (max-width:480px) {
+.container_slider_css{width:80%;height:190px}
+}
+.box{
+  top: 100px;
+  border: 1px solid rgb(235, 235, 235);
+    width: calc(25% - 30px);
+    margin: 1115px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.pop{
+  position: absolute;
+  width: 1856px;
+  height: 554px;
+  left: 350px;
+  top: 950px;
+  
+  background: url(image.png);
+
+
+}
+.pop img {
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+  }
+  
+ .pop img:hover{
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  }
+
+
+
+.Oao{
+  position: absolute;
+width: 1903px;
+height: 300px;
+left: 0px;
+top: 1713px;
+
+background: #C4C4C4;
+border-radius: 57px;
+}
+.Oao1{
+  position: absolute;
+width: 1418px;
+height: 82px;
+left: 251px;
+top: 1760px;
+
+font-family: PT Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 100px;
+
+color: #FFFFFF;
+
+}
